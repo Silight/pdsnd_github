@@ -255,7 +255,7 @@ def main():
         while restart not in restart_choice:
             restart = input(f'\nInvalid Choice. Type: {restart_choice}').lower()
         if restart == 'no':
-            exit()
+            break 
         
 if __name__ == "__main__":
 	main()

@@ -22,3 +22,5 @@ If you are on a Macintosh system use Udacity's workspace.
 ### Credits
 Following the Udacity starter code and tempate for this project. 
 I guess we can always credit out AI Overlords. 
+
+#### Random changes to meet requirements

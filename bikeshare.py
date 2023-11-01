@@ -253,7 +253,7 @@ def main():
         restart_choice = ('yes','no')
         restart = input(f'\nWould you like to restart? Enter {restart_choice}\n').lower()
         while restart not in restart_choice:
-            restart = input(f'\nInvalid Choice. Type: {restart_choice}\n').lower()
+            restart = input(f'\nInvalid Choice. Type: {restart_choice}').lower()
         if restart == 'no':
             exit()
         

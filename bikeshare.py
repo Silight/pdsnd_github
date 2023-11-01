@@ -106,17 +106,17 @@ def load_data(city, month, day):
 
 def display_data(df):
     """
-    Iterates through the df 5 rows at a time
+    Iterates through the df 6 rows at a time
     """
     start_time = time.time()
     next_res = ('yes', 'no')
-    input_next = input(f"Did you want to see the first five rows of data? \nType {next_res}> ").lower() 
+    input_next = input(f"Did you want to see the first six rows of data? \nType {next_res}> ").lower() 
     clear_terminal()
     while input_next not in next_res:
         input_next = input(f"Invalid response. Try again. Type {next_res}> ").lower()
     if input_next == 'yes': 
         start = 0
-        end = 5
+        end = 6
         rows = df.iloc[start:end]
         print(rows)
         print('_'*40)
@@ -127,8 +127,8 @@ def display_data(df):
                 input_next = input(f"Invalid response. Try again. Type {next_res}> ").lower()
             if input_next == 'yes':
                 clear_terminal()
-                start += 5
-                end += 5
+                start += 6
+                end += 6
                 rows = df.iloc[start:end]
                 print(rows)
                 print('_'*40)
@@ -253,9 +253,9 @@ def main():
         restart_choice = ('yes','no')
         restart = input(f'\nWould you like to restart? Enter {restart_choice}\n').lower()
         while restart not in restart_choice:
-            restart = input(f'\nInvalid Choice. Type: {restart_choice}\n').lower()
+            restart = input(f'\nInvalid Choice. Type: {restart_choice}').lower()
         if restart == 'no':
-            exit()
+            break 
         
 if __name__ == "__main__":
 	main()

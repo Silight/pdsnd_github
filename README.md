@@ -1,17 +1,24 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
+# Bikeshare Project
+Andrew Edwards
+#### Repository created: 10/31/2023
 
-### Date created
-Include the date you created this project and README file.
-
-### Project Title
-Replace the Project Title
-
-### Description
-Describe what your project is about and what it does
+## Description
+This is a terminal program that takes data from multiple cities and provides analysis based on user input. 
 
 ### Files used
-Include the files used
+bikeshare.py  
+nb_bikeshare.ipynb (Just a notebook for testing. Not needed for the main program)
+
+_Missing:_  
+You'll need to add these csv files for the program to work: 
+- chicago.csv  
+- new_york_city.csv
+- washington.csv
+
+### System Requirements
+This program should work in a Windows or Linux based terminal.  
+If you are on a Macintosh system use Udacity's workspace. 
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Following the Udacity starter code and tempate for this project. 
+I guess we can always credit out AI Overlords. 
